@@ -1,0 +1,35 @@
+body {
+  background-color: #EBD3F8;
+}
+
+/*Aqui empieza la parte del centrado*/
+.primero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/*Esta es la decoración de lo que esta en el centro*/
+
+.segundo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #AD49E1;
+  color: #2E073F;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/*El botón*/
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #EBD3F8;
+  border: 2px solid #2E073F;
+}
